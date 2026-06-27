@@ -42,10 +42,10 @@ Gradient Comfort \hfill \textit{San Francisco, CA}
  \vspace{-.5em}
  \begin{itemize}
     \itemsep -6pt {}
-     \item Architected a Travis CI pipeline to automate hardware integration testing on pull requests, eliminating manual
-     execution by configuring build triggers and managing inter-component communication
-     \item Leveraged Redis as a message broker and HTTP endpoints to manage state and isolate blocking I/O operations,
-     ensuring reliable hardware control within a multiprocessing system 
+     \item Architected a Travis CI pipeline to automate hardware integration testing on PRs, eliminating approximately 
+     5 hours of manual execution per developer weekly
+     \item Leveraged Redis as a message broker to manage state across 3+ concurrent pipeline processes,
+     isolating blocking I/O to ensure reliable hardware control
  \end{itemize}
 
 \textbf{Software Engineering Intern} \hfill Jun - Aug 2024 \\
@@ -53,9 +53,9 @@ Banyan Infrastructure \hfill \textit{San Francisco, CA}
  \vspace{-.5em}
  \begin{itemize}
     \itemsep -6pt {} 
-     \item Secured client access and enabled eSignature integration by implementing DocuSign OAuth 2.0 using token-based
-     authorization and session persistence, allowing seamless authentication within the platform
-     \item Streamlined document workflows by integrating DocuSign APIs to automate envelope creation, track status via
+     \item Secured client access by implementing DocuSign OAuth 2.0 using token-based authorization 
+     and 24-hour session persistence, allowing seamless authentication and eliminating redundant daily logins
+     \item Streamlined document workflows by integrating 10 DocuSign APIs to automate envelope creation, track status via
      webhooks, persist envelope metadata, and retrieve signed documents for platform use
  \end{itemize}
 
@@ -65,7 +65,7 @@ Banyan Infrastructure \hfill \textit{San Francisco, CA}
  \begin{itemize}
     \itemsep -6pt {} 
      \item Eliminated knowledge-retrieval bottlenecks by deploying a Vue.js and REST API discovery tool
-     that served as the source of truth for metric definitions across all departments
+     that served as the source of truth for 20 metric definitions across 7 departments
  \end{itemize}
 
 \end{rSection} 
@@ -80,7 +80,7 @@ Banyan Infrastructure \hfill \textit{San Francisco, CA}
  \vspace{-.5em}
  \begin{itemize}
    \itemsep  -6pt {}
-   \item Engineered a custom clothing recognition system in Python for automated data acquisition and preprocessing
+   \item Engineering a custom clothing recognition system in Python for automated data acquisition and preprocessing
    to build a robust dataset for supervised learning
    \item Developing an image classification model by fine-tuning a pre-trained MobileNetV2 network,
  optimizing the architecture with custom dense layers to classify specific clothing items against background noise
@@ -90,10 +90,10 @@ Banyan Infrastructure \hfill \textit{San Francisco, CA}
  \vspace{-.5em} 
  \begin{itemize}
    \itemsep  -6pt {}
-   \item Designed relational PostgreSQL schemas and architected the backend for an academic advisor portal, \\
-   implementing an Spring Boot layered architecture to facilitate a institutional system transition 
-   \item Refactored the codebase by extracting duplicate logic into modular, reusable components, significantly \\
-   improving long-term maintainability and reducing overall technical debt 
+   \item Designed the relational database, mapping 5+ PostgreSQL entities for the backend of an academic advisor portal,
+   implementing a Spring Boot layered architecture to facilitate an institutional system transition 
+   \item Refactored the codebase by extracting 80\% of duplicate logic into modular, reusable components, significantly
+   improving long-term maintainability and reducing overall technical debt
  \end{itemize}
 
 \textbf{Bathroom Finder} \textbar\ TypeScript, React Native, Node.js, MongoDB \hfill Jan 2024 - Jun 2025
@@ -102,8 +102,9 @@ Banyan Infrastructure \hfill \textit{San Francisco, CA}
    \itemsep  -6pt {}
    \item Developed a cross-platform React Native application with custom Node.js controllers to query a \\
     MongoDB database for real-time location fetching and multi-parameter amenity filtering  
-   \item Validated asynchronous data flows and UI state by developing comprehensive Jest test suites, utilizing
-   API mocking to ensure error handling
+   \item Validated asynchronous data flows and UI state by developing comprehensive Jest test suites, 
+   achieved 100\% coverage across 10 custom controllers
+
  \end{itemize}
 
 \end{rSection} 
