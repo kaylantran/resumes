@@ -1,0 +1,131 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4in, top=0.4in, right=0.4in, bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Kayla Tran} 
+\address{San Francisco, CA \\ \href{mailto:kaylatran2021@gmail.com}{kaylatran2021@gmail.com} \\ 415-730-1406 \\ \href{https://github.com/kaylantran}{https://github.com/kaylantran}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Software Engineering}, California Polytechnic State University - San Luis Obispo \hfill {2021 - 2025} \\
+Honors: Dean's Honor Roll (2022, 2024), College Track Scholar (2018 - 2025), 3x SHPE Scholarship Recipient
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Python, Java, JavaScript, TypeScript, HTML, CSS, SQL, C, Kotlin\\
+Frameworks/Libraries & React.js, Vue.js, Spring Boot, React Native, Express.js, Flask, Jest, Mockito\\
+Tools/Platforms & Git, Node.js, Yarn, Docker, Gradle, MongoDB, PostgreSQL, Travis CI\\
+\end{tabular}\\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Embedded Systems Intern} \hfill Jun - Aug 2025 \\
+Gradient Comfort \hfill \textit{San Francisco, CA}
+ \vspace{-.8em}
+ \begin{itemize}
+    \itemsep -8pt {}
+     \item Architected a Travis CI pipeline to automate hardware integration testing on PRs, eliminating approximately 
+     5 hours of manual execution per developer weekly
+     \item Leveraged Redis as a message broker to manage state across 3+ concurrent pipeline processes,
+     isolating blocking I/O to ensure reliable hardware control
+ \end{itemize}
+
+\textbf{Software Engineering Intern} \hfill Jun - Aug 2024 \\
+Banyan Infrastructure \hfill \textit{San Francisco, CA}
+ \vspace{-.8em}
+ \begin{itemize}
+    \itemsep -8pt {} 
+     \item Secured client access by implementing DocuSign OAuth 2.0 using token-based authorization 
+     and 24-hour session persistence, allowing seamless authentication and eliminating redundant daily logins
+     \item Streamlined document workflows by integrating 10 DocuSign APIs to automate envelope creation, track status via
+     webhooks, persist envelope metadata, and retrieve signed documents for platform use
+ \end{itemize}
+
+\textbf{Software Engineering Intern} \hfill Jun - Aug 2023 \\
+Banyan Infrastructure \hfill \textit{San Francisco, CA}
+ \vspace{-.8em}
+ \begin{itemize}
+    \itemsep -8pt {} 
+     \item Eliminated knowledge-retrieval bottlenecks by deploying a Vue.js and REST API discovery tool
+     that served as the source of truth for 20 metric definitions across 7 departments
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	SERVICE & CIVIC ENGAGEMENT
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SERVICE \& CIVIC ENGAGEMENT}
+
+\textbf{Campus Outreach CollegeCorps Fellow} \hfill Sep 2022 - June 2025 \\
+Cal Poly AmeriCorps Program \hfill \textit{San Luis Obispo, CA}
+ \vspace{-.8em}
+ \begin{itemize}
+    \itemsep -8pt {}
+     \item Founded and led a campus climate club in partnership with San Luis Obispo Climate Coalition, a local nonprofit,
+     hosted informational sessions, activities, and field trips averaging 10+ students per meeting
+ \end{itemize}
+
+\textbf{Software Developer} \hfill Oct 2023 - Jun 2025 \\
+Hack4Impact \vspace{-.8em}
+ \begin{itemize}
+    \itemsep -8pt {} 
+     \item Built full-stack features for two local nonprofits including volunteer scheduling, scholarship
+     management, and event discovery tools using TypeScript, Next.js, React, and MongoDB
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+
+\textbf{Transfer Learning Image Classifier} \textbar\ OpenCV, TensorFlow, Keras, MobileNetV2 \hfill Feb 2026 - Present
+ \vspace{-.8em}
+ \begin{itemize}
+   \itemsep  -8pt {}
+   \item Developing an image classification model by fine-tuning a pre-trained MobileNetV2 network,
+ optimizing the architecture with custom dense layers to classify specific clothing items against background noise
+\end{itemize}
+
+\textbf{Q2S Staff} \textbar\  TypeScript, Java, Docker, Spring Boot, PostgreSQL \hfill Oct 2024 - Jun 2025
+ \vspace{-.8em} 
+ \begin{itemize}
+   \itemsep  -8pt {}
+   \item Designed the relational database, mapping 5+ PostgreSQL entities for the backend of an academic advisor portal,
+   implementing a Spring Boot layered architecture to facilitate an institutional system transition 
+ \end{itemize}
+
+\textbf{Bathroom Finder} \textbar\ TypeScript, React Native, Node.js, MongoDB \hfill Jan 2024 - Jun 2025
+ \vspace{-.8em}
+ \begin{itemize}
+   \itemsep  -8pt {}
+   \item Developed a cross-platform React Native application with custom Node.js controllers to query a
+    MongoDB database for real-time location fetching and multi-parameter amenity filtering  
+
+ \end{itemize}
+
+\end{rSection} 
+
+\end{document}
